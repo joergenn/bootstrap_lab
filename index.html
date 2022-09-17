@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Lab1</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm sticky-top">
+        <a class="navbar-brand" href="">Home</a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="page-header header container-fluid">
+        <div class="overlay">
+            <div class="description">
+                <h1>WELCOME</h1>
+                <p>I AM A DEVELOPER AND UX/UI</p>
+                <p>DESIGNER BASED IN UKRAINE.</p> 
+                <p>I HAVE MANY YEARS OF EXPERIENCE IN CONSULTING</p>
+                <p>IN ALL AREAS OF DIGITAL.</p>
+                <button class="btn btn-outline-secondary btn-lg">CONTACT ME</button>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid" id="skills">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 skill-block">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <h3>Front end</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item border-0">HTML & CSS</li>
+                            <li class="list-group-item border-0">CSS Preprocessors and Bootstrap</li>
+                            <li class="list-group-item border-0">JavaScript/TypeScript/jQuery</li>
+                            <li class="list-group-item border-0">React & Redux</li>
+                            <li class="list-group-item border-0">Angular</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 skill-block">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <h3>Back end</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item border-0">NodeJS</li>
+                            <li class="list-group-item border-0">ExpressJS</li>
+                            <li class="list-group-item border-0">Firebase, PostgreSQL, MongoDB</li>
+                            <li class="list-group-item border-0">API</li>
+                            <li class="list-group-item border-0">Data Structures and Algorithms</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid  carousel-container">
+        <h3 id="projects" class="text-center">My Projects</h3>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="img-fluid" src="images/p1.jpg" alt="First slide">
+                <button class="visit-site"><a href="#">Visit site</a></button>
+              </div>
+              <div class="carousel-item">
+                <img class="img-fluid" src="images/p2.png" alt="Second slide">
+                <button class="visit-site"><a href="#">Visit site</a></button>
+              </div>
+              <div class="carousel-item">
+                <img class="img-fluid" src="images/p3.jpg" alt="Third slide">
+                <button class="visit-site"><a href="#">Visit site</a></button>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row" id="contact">
+                <div class="col-lg-3 col-sm-12">
+                    <h6 class="font-weight-bold text-uppercase">I build things for the web.</h6>
+                    <p>I'm a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products.</p>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <h3 class="feature-title text-uppercase">Contact me</h3>
+                    <div class="input-group">
+                        <div class="input-group-text">Name</div>
+                        <input type="text" class="form-control" name="">
+                    </div>
+                    <div class="input-group">
+                        <div class="input-group-text">Email</div>
+                        <input type="email" class="form-control" name="email">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="4"></textarea>
+                    </div>
+                    <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <h6 class="text-uppercase font-weight-bold">Contacts</h6>
+                    <p>28 Skovorody, Chernivtsi, Ukraine
+                    <br/>info@mywebsite.com
+                    <br/>+ 01 234 567 88
+                    <br/>+ 01 234 567 89</p>
+                </div>
+            </div>
+        </div>
+    </footer> 
+
+    <script src="jquery-3.6.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
